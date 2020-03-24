@@ -7,7 +7,6 @@ import AddPerson from '../components/AddPerson/AddPerson';
 
 class Persons extends Component {
     render () {
-        console.log(this.props);
         return (
             <div>
                 <AddPerson personAdded={this.props.onAddAction} />
